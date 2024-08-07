@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Componentes</title>
+    <link rel="shortcut icon" href="./src/img/main/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/main/estyle.css">
+    <link rel="stylesheet" href="./src/css/main/normalize.css">
+
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Componentes</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./src/img/main/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./src/img/main/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Te llenamos hasta el fondo...</h1>
+            <h2 class="hero__title">de tecnología</h2>
+            <p class="hero__paragraph">Encuentra los mejores componentes para construir o mejorar tu PC.</p>
+            <a href="./src/public/login/login.html" class="cta">Ver Productos</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">Sobre Nosotros</h2>
+            <p class="about__paragraph">Una compañía 100% guatemalteca enfocada en soluciones de computación para todas las necesidades. Nuestro objetivo es brindar una experiencia única de servicio, ofreciendo los mejores equipos, de las mejores marcas y a los mejores precios.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./src/img/main/shapes.svg" class="about__icon">
+                    <h3 class="about__title">Soporte</h3>
+                    <p class="about__paragrah">Contamos con centros de servicios para diagnóstico y reparación de computadoras.También tenemos un blog con información técnica.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./src/img/main/paint.svg" class="about__icon">
+                    <h3 class="about__title">Mayoreo</h3>
+                    <p class="about__paragrah">Politicas y condiciones para mayorista. Si ya eres mayorista puedes entrar al sitio para consultar los precios de mayoreo.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./src/img/main/code.svg" class="about__icon">
+                    <h3 class="about__title">Ofertas</h3>
+                    <p class="about__paragrah">Ecuentras las mejores ofertas y promociones que solo Micosas tiene para ti.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">¿Porque comprar con nosotros?</h2>
+                    <p class="knowledge__paragraph">Compartiendo conocimientos, experiencias y esfuerzo, para poder ofrecer el mejor servicio. Supone trabajar con liderazgo bajo un método, en un ambiente que promueva el enriquecimiento, en el cual se valoran y se respetan todas las opiniones e ideas.</p>
+                    <a href="#" class="cta">Aprende mas</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./src/img/main/macbook.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Precios</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Tarjeta Gráfica Básica</p>
+                    <h3 class="price__price">$199</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">4GB VRAM</p>
+                        <p class="price__features">HDMI y DisplayPort</p>
+                        <p class="price__features">1 año de garantía</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Procesador Avanzado</p>
+                    <h3 class="price__price">$399</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">8 núcleos / 16 hilos</p>
+                        <p class="price__features">Boost Clock 4.2 GHz</p>
+                        <p class="price__features">3 años de garantía</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Unidad SSD Premium</p>
+                    <h3 class="price__price">$129</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">1TB Almacenamiento</p>
+                        <p class="price__features">Velocidad de lectura 3500MB/s</p>
+                        <p class="price__features">5 años de garantía</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Comprar</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./src/img/main/leftarrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">Cliente frecuente</span></h2>
+                        <p class="testimony__review">"Los componentes que compré son de excelente calidad y a muy buen precio. Mi PC ha mejorado considerablemente"</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/img/main/face.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">Cliente frecuente</span></h2>
+                        <p class="testimony__review">El servicio al cliente es increíble. Me ayudaron a escoger los mejores componentes para mi necesidad."</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/img/main/face2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">Cliente frecuente</span></h2>
+                        <p class="testimony__review">Buenas experiencia, resuelven las dudas al comprar accesorios tecnologicos</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/img/main/face3.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">Cliente frecuente</span></h2>
+                        <p class="testimony__review">Excelente servicio para comprar, nunca he tenido problemas con mis compras..!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./src/img/main/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./src/img/main/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
+                doloribus neque perspiciatis sapiente fuga.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cómo puedo realizar un pedido?
+                            <span class="questions__arrow">
+                                <img src="./src/img/main/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Puedes realizar tu pedido a través de nuestra página web. Solo selecciona los productos que deseas comprar y sigue las instrucciones para completar tu compra.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cuáles son las opciones de envío?
+                            <span class="questions__arrow">
+                                <img src="./src/img/main/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Ofrecemos varias opciones de envío, incluyendo envío estándar y express. Los costos y tiempos de envío varían según la opción que elijas y tu ubicación.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Puedo devolver un producto?
+                            <span class="questions__arrow">
+                                <img src="./src/img/main/arrow.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Sí, aceptamos devoluciones dentro de los 30 días posteriores a la compra. El producto debe estar en su estado original y el embalaje sin abrir. Por favor, contacta con nuestro servicio al cliente para más detalles.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
+                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
+                    eius atque tempora iure ab non autem.</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Venta de componentes.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Para mas informacion</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/?locale=es_LA" class="footer__icons"><img src="./src/img/main/facebook.svg" class="footer__img"></a>
+                <a href="https://x.com/?lang=es" class="footer__icons"><img src="./src/img/main/twitter.svg" class="footer__img"></a>
+                <a href="https://www.youtube.com/" class="footer__icons"><img src="./src/img/main/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Estiv Botzoc</h3>
+        </section>
+    </footer>
+
+<script src="./src/js/main/main.js"></script>
+</body>
+
+</html>
